@@ -1,6 +1,6 @@
 import { AvatarProps } from "@/types/avatar";
 
-function Avatar({person, size=100}: AvatarProps) {
+function Avatar({ person, size = 100 }: AvatarProps) {
   return (
     <img
       className="avatar"
